@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace StudentManagementService.Dtos
 {
-    internal class StudentDto
+    public class StudentDto
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
     }
 }
